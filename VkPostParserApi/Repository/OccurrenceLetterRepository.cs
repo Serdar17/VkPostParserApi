@@ -6,12 +6,12 @@ using VkPostParserApi.Options;
 
 namespace VkPostParserApi.Repository;
 
-public class OccurenceLetterRepository : IOccurrenceLetterRepository
+public class OccurrenceLetterRepository : IOccurrenceLetterRepository
 {
     private readonly ApplicationDbContext _dbContext;
     private readonly VkPostsApiOption _option; 
 
-    public OccurenceLetterRepository(ApplicationDbContext dbContext, IOptions<VkPostsApiOption> optionsSnapshot)
+    public OccurrenceLetterRepository(ApplicationDbContext dbContext, IOptions<VkPostsApiOption> optionsSnapshot)
     {
         _dbContext = dbContext;
         _option = optionsSnapshot.Value;

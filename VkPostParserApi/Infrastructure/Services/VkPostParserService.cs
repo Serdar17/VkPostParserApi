@@ -2,7 +2,7 @@
 using Ardalis.Result;
 using Newtonsoft.Json;
 using VkPostParserApi.Dtos;
-using VkPostParserApi.Extinsions;
+using VkPostParserApi.Extensions;
 using VkPostParserApi.Infrastructure.Client;
 using VkPostParserApi.Models;
 using VkPostParserApi.Repository;

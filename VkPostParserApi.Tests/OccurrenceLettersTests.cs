@@ -1,5 +1,5 @@
 ﻿using NUnit.Framework;
-using VkPostParserApi.Extinsions;
+using VkPostParserApi.Extensions;
 
 namespace VkPostParserApi.Tests;
 

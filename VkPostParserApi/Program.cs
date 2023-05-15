@@ -27,7 +27,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(opt =>
 builder.Services.AddScoped<IVkPostsParserService, VkPostParserService>();
 builder.Services.Decorate<IVkPostsParserService, CachedVkPostsParserService>();
 
-builder.Services.AddScoped<IOccurrenceLetterRepository, OccurenceLetterRepository>();
+builder.Services.AddScoped<IOccurrenceLetterRepository, OccurrenceLetterRepository>();
 
 builder.Services.AddMemoryCache();
 
