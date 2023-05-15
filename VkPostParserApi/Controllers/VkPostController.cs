@@ -25,7 +25,7 @@ public class VkPostParserController : BaseController
 
         if (result.IsSuccess)
         {
-            return Ok(new JsonResult(result.Value));
+            return Ok(result.Value);
         }
 
         return BadRequest(result.Errors);
